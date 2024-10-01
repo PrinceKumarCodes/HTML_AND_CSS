@@ -1,0 +1,142 @@
+<!--Index.html :- It is the default name for a website's homepage -->
+<!-- Html Tag :-  The component is used to design the structure of websites are called HTML tags -->
+
+<!DOCTYPE html>  <!--tells browser you are using html5-->
+<!-- HTML is the code that is used to structure a web page and its content. -->
+
+<html lang="en"> <!--(HTML:-Hypertext Markup Language), lang is a atribute and en means:- language in english-->
+<head> <!--Head tag is a container for metadata where contain all  meta information -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prince Kumar</title> <!--Title tag is used to add title of your web page-->
+</head>
+
+<body> <!--Contains all data randered by the browser -->
+   
+    <p>Hello World</p> <!--Paragraph tag is used to add paragraphs in HTML-->
+
+    <a href="https://google.com" target="_main">Google</a> <!--Anchor tag is used to add link to your web page-->
+    <!--target="_main" means file open new tab -->
+
+    <a href="https://google.com"><img src="/Image.jpg" alt height="200"></a> <!-- This image will be  clickable image when you click this image then open googe chrome -->
+
+    <img src="/Image.jpg" alt="User image" height="200"> <!--Image tag is used to add image to your web page-->
+    <!--Here src, alt, and height is a attributes -->
+
+    <br> <!--Br tag is used to add next line or line break to your web page-->
+
+    <p> <b>prince</b> <i>kumar</i> <u>singh</u> </p> <!--Bold, italic and underline  tags are used to highlight to your web page-->
+
+    <big>This is big text</big> <!-- Big tag is used to display big text to your web page-->
+
+    <small>this is small text</small> <!--Small tag is used to display small text to your web page-->
+
+    <hr width="100" size="3" color="gree"> <!--Hr tag is used to display horizontal ruler and it is used to separate content -->
+
+    
+    <h1>H<sub>2</sub>O</h1> <!--Subscript tag is used to  define subscript text, Subscript text can be used for chemical formulas, like H2O-->
+ 
+    <h1>A<sup>n</sup> + B</h1> <!--superscript tag is used to display text that appears slightly above the normal line of text-->
+
+    <pre>prince       kumar      singh </pre> <!--Pre tag is used to display as it is without ignoring spaces & next line -->
+
+    <div>This is div tag</div> <!--Div tag is a container used for other HTML Elements and this tag is a block  element (takes full width of screen)-->
+
+    <span>This is span tag</span> <!--Span tag is also container used of other html elements and this is a inline element (takes width as per size)-->
+
+    <li>this is sample</li> <!--List tag is used to represent real life list data-->
+
+    <ul> <!--unordered list-->
+        <li>prince kumar singh </li>
+        <li>sumit kumar  singh</li>
+    </ul>
+
+    <ol> <!--ordered list-->
+        <li>naveen kumar singh</li>
+        <li>chandan kumar singh</li>
+    </ol>
+
+
+    <table border="2"> <!--Table tag is used to represent real life table data-->
+
+        <caption>Student data</caption> <!--caption tag is used to display title or description for a table-->
+
+        <thead> <!--thead tag is used to wrap table head-->
+
+            <tr> <!--tr tag is used to display table row-->
+                <th>Name</th> <!--th  tag is used for display table header -->
+                <th>Roll No</th>
+            </tr>
+        </thead>
+
+        <tbody> <!--tbody tag is used to wrap table body-->
+            <tr>
+                <td>Prince kumar singh</td> <!-- td tag is used for table data-->
+                <td>2228100032</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Roll Num</th>
+        </tr>
+        <tr>
+            <td colspan="2">Prince kamer singh</td> <!--colspan attribute is used to create cells which spans multiple columns-->
+            
+        </tr>
+    </table>
+
+
+    <form action="action.php"> <!--Action attribute is used to define what action needs to be performed when a form is submitted-->
+        <!--forms are used to collect data from user Eg:- sign up/ login / help request / contact me -->
+
+        <input type="text" placeholder="Enter Name ">
+         <br>
+        <label for="id1">
+            <input type="radio" value="Class X" name="class" id="id1"> Class X
+        </label>
+        <br>
+
+        <label for="id2">
+            <input type="radio"  value="Class XI" name="class" id="id2"> Class XII
+        </label>
+        <br>
+
+        <label for="id3">
+            <input type="checkbox" value="Math" name="class" id="id3"> Math
+        </label>
+       <br>
+
+        <label for="id4">
+            <input type="checkbox"  value="English" name="class" id="id4">English
+        </label>
+        <br>
+
+        <label for="feedback">
+            <textarea name="feedback" id="feedback" placeholder="Please add feedback."></textarea>
+        </label>
+
+    </form>
+
+    <hr>
+    <select name="city" id="city"> 
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="bangore"> Banglore</option>
+    </select>
+
+    <hr>
+    <iframe src="https://wikipedia.com" frameborder="1"> <!--iframe tag is used to open another website inside website-->   
+    
+    </iframe>
+
+    <hr>
+    <video src="https://youtu.be/AZITgnfZQPg?si=ncWAODFRy6pDZJ1K" controls></video> <!--video tag is used to add video to your web page-->
+    
+</body>
+</html> <!--root of an html document-->
