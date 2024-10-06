@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Progress Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="professional-skills"> <!--container-->
+
+    <div class="first-skill">
+        <div class="outer"><!--outer div-->
+            <div class="inner"> <!--inner div-->
+                <div id="number"> <!--number div-->
+                   
+                </div>
+            </div>
+        </div>
+        <!-- svg circle process bar -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor"><!--circle color-->  
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <!-- circle -->
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+        <h3>Communication</h3>
+    </div>
+
+        <div class="second-skill">
+        <div class="outer"><!--outer div-->
+            <div class="inner"> <!--inner div-->
+                <div id="number"> <!--number div-->
+                   10%
+                </div>
+            </div>
+        </div>
+        <!-- svg circle process bar -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor1"><!--circle color-->  
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <!-- circle -->
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+        <h3>Problem solving</h3>
+
+    </div>
+
+</div>
+
+    
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
