@@ -16,11 +16,15 @@ body {
     width: 160px;
     /* background: cornflowerblue; */
     position: relative;
-    display: flex;
+    display: flex;   
     justify-content: space-between;
 }
+.professional-skills h3{
+    padding-top: 50px;
+    text-align: center;
+}
 
-/*globaly used properties outere and inner   */
+/*Globally used  properties of outer and inner part   */
 .outer {
     height: 160px;
     width: 160px;
@@ -47,10 +51,20 @@ body {
     font-weight: 600;
     color: #555;
 }
+#number1 {
+    font-weight: 600;
+    color: #555;
+}
 
 /* start first skills  */
 .first-skill{
     margin-right: 30px;
+}
+
+.first-skill svg {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .first-skill circle{
     fill: none;
@@ -59,12 +73,6 @@ body {
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
     animation: anim 2s linear forwards;
-}
-
-.first-skill svg {
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 @keyframes anim {
@@ -80,7 +88,6 @@ body {
     top: 0px;
     left: 190px;
 }
-
 .second-skill circle{
     fill: none;
     stroke: url(#GradientColor1);
@@ -91,6 +98,6 @@ body {
 }
 @keyframes anim1 {
     100%{
-       stroke-dashoffset: 165;
+       stroke-dashoffset: 130;
     }
 }
