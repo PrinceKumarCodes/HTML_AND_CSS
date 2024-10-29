@@ -1,0 +1,21 @@
+.kv_text a {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    /* background-image: linear-gradient(90deg, #de00ff, #0000ff); */
+    /* -webkit-background-clip: text; */
+    align-items: center;
+    margin-top: 5%;
+    padding: 15px 50px;
+    border: 2px solid;
+    border-image-source: linear-gradient(270deg, #de00ff, #0000ff);
+    border-image-slice: 1;
+    text-decoration: none;
+
+}
+
+.kv_text a:hover {
+    text-decoration: none;
+    border-image-source: linear-gradient(90deg, #de00ff, #0000ff);
+}
