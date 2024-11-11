@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("forest-sun-ecology-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  background-color: black;
+}
+ul li {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar ul li:hover {
+  background-color: green;
+}
+.dropdown {
+  display: none;
+}
+ul li:hover .dropdown {
+  display: block;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.dropdown ul li {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.dropdown2 {
+  display: none;
+}
+.dropdown ul li:hover .dropdown2 {
+  display: block;
+  position: absolute;
+  margin-left: 9.6rem;
+  margin-top: -35px;
+  color: white;
+}
+.dropdown2 ul li {
+  padding: 8px 20px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  padding: 0px 10px;
+}
+nav ul li {
+  padding: 1px;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+nav i {
+  color: white;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  height: 25px;
+}
+nav input {
+  margin: 10px;
+  height: 30px;
+  padding: 0px 10px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-bar nav ul li:hover {
+  background: none;
+}
