@@ -1,0 +1,25 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.map-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 98%;
+  height: 100%;
+  border: 10px solid gray;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+iframe {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  border: 5px solid black;
+  box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
