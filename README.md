@@ -13,4 +13,9 @@
 - **Insert Maps** – Embedding interactive maps (e.g., Google Maps).  
 - **Login_Form** – A user login form with validation.  
 - **Confetti Effect** – A fun confetti animation for celebrations.  
-- **Random Password Generator** – A JavaScript-based tool for generating secure passwords.  
+- **Random Password Generator** – A JavaScript-based tool for generating secure passwords.
+
+## 🛠️ Technologies Used
+- HTML5 – Structure of the clock
+- CSS3 – Styling & animations
+- JavaScript – Real-time functionality
